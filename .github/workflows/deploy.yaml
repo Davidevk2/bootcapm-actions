@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      -name: Hola Mundo 
-      run: echo "HolaMundo"
+      - name: Hola Mundo 
+        run: echo "HolaMundo"
 
 
   secund_job:
@@ -21,5 +21,5 @@ jobs:
     runs-on: ubutu-latest
 
     steps: 
-      -name: Hola mundo 
-      run: echo "Hola Mundo"
+      - name: Hola mundo 
+        run: echo "Hola Mundo"
